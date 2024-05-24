@@ -12,3 +12,9 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ODQ4NzM5OGMwMGNhM2Q1N2E0ZmI4ZjA2MGM4ZWU0NSIsInN1YiI6IjY2NTAyZWRiMWRhNGZkODBjYzliNDE1ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GXmG0fFoFVyqCpln885wIj5oN6D0V9Z8FleFKC3Dk1U",
   },
 };
+
+export const CDN_IMG_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const MUTE_ICON = "https://cdn-icons-png.flaticon.com/512/4546/4546899.png";
+
+export const SOUND_ICON = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgU5giLnPeBDmslCeHF9bkGZ_cscrphXLq29wvnlseNw&s";
