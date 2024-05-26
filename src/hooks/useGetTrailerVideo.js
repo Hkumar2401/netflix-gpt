@@ -13,7 +13,6 @@ const useGetTrailerVideo = (movieId) => {
       API_OPTIONS
     );
     const json = await data.json();
-    // console.log(json.results);
 
     const trailer = json.results.filter(
       (video) => video.name === "Official Trailer"
