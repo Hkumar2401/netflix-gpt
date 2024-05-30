@@ -6,15 +6,10 @@ import { useSelector } from "react-redux";
 
 const MainContainer = () => {
   const movies = useSelector((store) => store.movies?.nowPlayingMovies);
-  console.log(movies);
 
   if (!movies) return;
 
-  const randomNumber = Math.floor(Math.random() * (movies.length - 1) + 1);
-
-  const mainMovie = movies[randomNumber];
-
-  // console.log(mainMovie);
+  const mainMovie = movies[0];
 
   const { title, overview, id } = mainMovie;
 

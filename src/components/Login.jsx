@@ -96,14 +96,14 @@ const Login = () => {
   return (
     <div className="Login">
       <Header />
-      <div className="background-img absolute">
+      <div className="background-img absolute ">
         <img
-          className=""
+          className="h-screen object-cover w-screen"
           src={BG_IMG_URL}
           alt="netflix-background"
         />
       </div>
-      <div className="form  absolute w-1/4 left-0 right-0 mx-auto top-[250px]">
+      <div className="form  absolute w-11/12 md:w-1/4 left-0 right-0 mx-auto top-[250px]">
         <form
           onSubmit={(e) => e.preventDefault()}
           action=""

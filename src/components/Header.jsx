@@ -10,7 +10,6 @@ import { changeLanguage } from "../utils/configSlice";
 
 const Header = () => {
   const gptSearch = useSelector((store) => store.gpt.gptSearch);
-  console.log(gptSearch);
 
   const navigate = useNavigate();
 
@@ -56,7 +55,7 @@ const Header = () => {
   }
 
   return (
-    <div className="absolute flex justify-between items-center bg-gradient-to-b from-black w-full h-28 z-10">
+    <div className="absolute pb-10 md:pb-0 flex flex-col md:flex-row justify-between items-center bg-gradient-to-b bg-black md:bg-transparent from-black w-full h-fit md:h-28 z-10">
       <div>
         <img
           className="w-40 m-6 mix-blend-screen"
